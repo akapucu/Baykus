@@ -21,7 +21,7 @@ This script takes a configuration file* as an argument. Let's explain what you c
 
 As you may have already guessed, changes in a network are tracked over a database table created for that network. And that table is created based on the department name* and the network name (e.g. 10.10.0.0/24) or the filename which contains ip addresses. So, for example when you run:
 
-> python baykus.py -d mydepartment -t 10.10.0.0/24 -c watch.txt 
+> python baykus.py -d mydepartment -t 10.10.0.0/24 -c baykus_conf.txt 
 
 A table named "mydepartment_10.10.0.0/24" will be created in the database. It means that, if you want to track changes in a specific network, make sure that you provide the same department name and network name (maybe filename) to the script.  
 
