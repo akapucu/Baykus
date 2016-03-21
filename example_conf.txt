@@ -1,0 +1,20 @@
+##### In this section, nmap command without target part should be provided #####
+[Nmap Host Discovery]
+nmap_host_discovery_command: "nmap -sn"
+
+##### In this section, 'ticket' is alias for password. #####
+##### Multiple email addresses seperated with comma(,) can be provided to the 'to_addrs' option. #####
+[Mail Configuration]
+mail server: 127.0.0.1
+mail server port: 25
+username: sender@mail.com
+ticket: password
+from_addr: sender@mail.com 
+to_addrs:  receiver1@mail.com, receiver2@mail.com, receiver3@mail
+subject: "Asset discovery results for our department " 
+
+##### Here goes the path of the db file for sqlite database #####
+##### On windows systems, either double backslashes(\\) or forwardslash(/) must be used instead of a single backslash(\) #####
+
+[Database]
+database_file_path: 'C:\\users\\bob\\desktop\\watchnetwork\\watch.db'
