@@ -10,11 +10,15 @@ If you have an important network and need to watch it all the time, Baykus may h
 * don't bother, it's just a file, there is no need for any extra database application.
 
 
+
+
 [ How to customize the script for your own needs? ] 
 
 This script takes a configuration file* as an argument. Let's explain what you can do with that configuration file. Depending on the network, you may need to customize your nmap command for host discovery. You may set it to default (nmap -sn) or in some cases you may modify it to increase accuracy. The next step is to customize email delivery. You can specify mail server information, mail addresses to deliver scan results, mail subject and etc. Lastly, you should provide a filename (or path to that file) to be used as a database file. You don't need any extra database application for that. Python handles database operations internally. But keep in mind that, if you plan to run this script on windows systems, you should use double backslashes (\\) or foreslash (/) instead of single backslash (\).   
 
 * one has been provided as an example
+
+
 
 
 [ How to use this script for network watching? ]
