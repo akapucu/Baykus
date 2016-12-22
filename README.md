@@ -45,4 +45,5 @@ This script has been developed for Python2.7.
 
 [ Help Page ]
 
+![alt tag](https://github.com/behruzcebiyev/Baykus/blob/master/help_page.png)
                        
