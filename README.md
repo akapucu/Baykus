@@ -49,7 +49,9 @@ Usage: baykus.py [options]
 
 Options:
   -h, --help           show this help message and exit
+  
   -d DEPARTMENT        to get the department name to which the network belongs
+  
   -t TARGET_SUBNET     to get the target network to scan (e.g. 10.0.0.0/24,
                        10.0.0-8.0-50)
   -f TARGET_FILE       to get the ip addresses to be scanned from a file
